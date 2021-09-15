@@ -1,0 +1,5 @@
+# SQL SERVER
+
+- USER: sa
+- PASSWORD: Dev%12345678
+

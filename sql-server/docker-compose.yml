@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2017-CU24-ubuntu-16.04
+    container_name: sql-server
+    environment: 
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Dev%12345678
+    ports: 
+      - 1433:1433
